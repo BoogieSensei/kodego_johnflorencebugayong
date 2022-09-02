@@ -8,4 +8,6 @@ fun main (){
     println("Hello World")
     println("Hello World!!!!")
     println("Hello World!!!!!!!!!!")
+    println("I am John Florence E. Bugayong")
+    println("Former Top 6 Saber in Philippines")
 }
