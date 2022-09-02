@@ -15,4 +15,5 @@ fun main (){
     // Always remember to lessen comments.
     println("Finished practicing what was discussed yesterday.")
     println("Ready to start the 3rd day of the Bootcamp.")
+    print("Hello World4")
 }
