@@ -12,4 +12,7 @@ fun main (){
     println("Former Top 6 Saber in Philippines")
 
     println("Trying to figure out how to code!!!!!")
+    // Always remember to lessen comments.
+    println("Finished practicing what was discussed yesterday.")
+    println("Ready to start the 3rd day of the Bootcamp.")
 }
