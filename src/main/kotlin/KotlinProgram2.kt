@@ -22,7 +22,7 @@ fun main(){
     //substring
     println(string1.substring(6,10))
     //replace
-    println(string1.replace("this","that"))
+    println(string1.replace("This","That"))
 
 
 }
