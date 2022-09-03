@@ -24,6 +24,18 @@ fun main () {
     }
 
 
+
+    var gender : String = "M"
+
+    if(gender == "M"){
+        println("Male")
+    } else if (gender == "F"){
+        println("Female")
+    }else{
+        println("Invalid choice")
+    }
+
+
 //    //range
 //    var idNumber : Int = 1
 //    //true                 //true
