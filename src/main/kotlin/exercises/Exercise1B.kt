@@ -1,4 +1,4 @@
-package excersises
+package exercises
 
 
 fun main () {
