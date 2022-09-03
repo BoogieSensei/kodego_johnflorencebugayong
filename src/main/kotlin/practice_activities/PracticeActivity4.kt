@@ -19,8 +19,6 @@ fun main(){
 
     println("Product Name: $productName")
     println("SRP of Modem Router: $price")
-    println("Discount is $discount5")
-    println("Net price: $netPrice")
 
     //Discount Range
     if(price > 100000){
@@ -42,5 +40,6 @@ fun main(){
         println("Invalid Amount")
     }
 
+    println("Net price: $netPrice")
 
 }
