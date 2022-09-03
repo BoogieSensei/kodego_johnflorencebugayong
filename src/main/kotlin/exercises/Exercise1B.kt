@@ -9,7 +9,7 @@ fun main () {
     var book3Name : String = "Alice in Wonderland"
 
     //Book Availability
-    var book1Copy : Int = 2
+    var book1Copy : Int = 0
     var book2Copy : Int = 3
     var book3Copy : Int = 0
 
