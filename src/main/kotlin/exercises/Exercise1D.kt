@@ -8,20 +8,19 @@ fun main(){
     Filename: Exercise 1-D
      */
 
-
-    var amountInitial : Double = 100.00
-
-
-
+    //Start of the program
     println("please enter amount")
     var amount1 : Double = readln().toDouble()
 
+
+    //Will the client add any amount?
     if ((amount1 >=1) && (amount1 <= 1000000000000)){
      println("The amount your entered is $amount1.")
     }
     println("Do you want to add another amount? Please answer either YES or NO")
     var amount2: String = readln().toString()
 
+    //The client will add amount
     if(amount2 == "YES") {
             println("Please enter additional amount.")
     var amount3 : Double = readln().toDouble()
@@ -31,6 +30,8 @@ fun main(){
         var divisor1 : Int = readln().toInt()
         var grandTotal1 : Double = totalAmount1 / divisor1
         println("Your total amount is $grandTotal1")
+
+    //The client will NOT add amount
     }else if(amount2 == "NO"){
         println("Divide the value by how many?")
         var divisor2 : Int = readln().toInt()
