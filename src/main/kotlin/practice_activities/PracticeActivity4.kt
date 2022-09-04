@@ -13,7 +13,7 @@ fun main(){
     var discount5 : Double = (price) * .05
     var discount0 : Double = (price) * 1
 
-    //Net Price
+    //Net Price computation
     var netPrice : Double = price - discount5
 
 
