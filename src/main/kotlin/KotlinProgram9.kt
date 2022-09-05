@@ -6,9 +6,7 @@ fun main(){
     do{
         println("Hello World")
         ctr++ //update
+
     }while(ctr <=5)//condition
-        if(ctr == 3){
-            println("Hello World $ctr")
-        }
 
 }
