@@ -6,6 +6,10 @@ fun main(){
     println(names[0])
 
     //explicit
-    var numbers = arrayOf<Int>(1,2,3,4,5,6,7,8,9,10)
+    var numbers = arrayOf<Int>(2,3,10,12,9)
+    println(numbers[4])
+
+    //array size
+    println(numbers.size)
 
 }
