@@ -14,7 +14,7 @@ fun main () {
 
     while (condition) {
         println("Do you want to add another amount? YES or NO?")
-        var input2: String = readln().toString()
+        var input2: String = readln().uppercase()
 
 
         if (input2 == "YES") {
