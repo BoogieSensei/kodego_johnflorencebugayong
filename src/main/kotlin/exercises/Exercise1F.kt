@@ -9,7 +9,7 @@ fun main(){
     Filename: Exercise1F.kt
      */
 
-    println("Please enter a PALINDROME:")
+    println("Enter a word:")
     var answer1 : String = readln().toString()
 
     //Google is your friend!!!!
