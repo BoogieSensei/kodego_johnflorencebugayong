@@ -34,6 +34,8 @@ fun main () {
             println("The total amount is $totalAmount")
 
             condition = false
+        }else{
+            println("Please enter either YES or No")
         }
 
     }
