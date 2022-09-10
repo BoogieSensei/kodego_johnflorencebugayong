@@ -1,14 +1,11 @@
 fun main(){
-    displayMessage("Hello")
-//    println("Enter number 1:")
-//    var number : Int = readln().toInt()
-//
-//    println("The cube is ${number * number * number}")
-//
-//    println("Enter number 2:")
-//    var number2 : Int = readln().toInt()
-//
-//    println("The cube is ${number2 * number2 * number2}")
+    println("Enter your name")
+    var name : String = readln()
+
+    println("Enter your name")
+    var age : Int = readln().toInt()
+
+    displayNameAndAge(name,age)
 
 }
 
@@ -21,4 +18,13 @@ fun displayName(): Unit {
 //no return with 1 parameter
 fun displayMessage (msg: String){
     println("The message is \"$msg\"")
+}
+
+//no return with 2 parameters
+fun displayNameAndAge (name: String, age: Int) {
+    println("Your name is $name")
+    println("Your age is $age")
+
+
+
 }
