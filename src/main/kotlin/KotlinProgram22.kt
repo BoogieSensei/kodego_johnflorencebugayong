@@ -2,7 +2,7 @@ fun main(){
     println("Enter your name")
     var name : String = readln()
 
-    println("Enter your name")
+    println("Enter your age")
     var age : Int = readln().toInt()
 
     displayNameAndAge(name,age)
