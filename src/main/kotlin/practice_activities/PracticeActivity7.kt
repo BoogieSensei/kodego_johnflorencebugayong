@@ -19,5 +19,4 @@ fun calculatePerimeter( length: Double, width: Double):Double{
 
 fun calculateArea(length: Double, width:Double):Double{
     return length * width
-
 }
