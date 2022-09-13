@@ -9,14 +9,15 @@ fun main (){
      */
 
 
-    println("Please enter a value:")
-    var input1 : Int = readln().toInt()
 
-    println("Please enter a value")
-    var input2 : Int = readln().toInt()
+    var input1 : Int = 123456
 
+    var input2 : Int = 456789
 
+    var ctr1 : Int = 0
 
+    while (ctr1 < input1.countOneBits()){
+    }
 
 
 
