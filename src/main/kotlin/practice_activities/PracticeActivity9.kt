@@ -27,6 +27,7 @@ class MobilePhone(var phoneName: String, var brandName: String, var phoneColor: 
 
 
     init{
+        println("Welcome to Boogie's ICT solutions")
         println("Showing phone features:")
 
     }
@@ -47,15 +48,15 @@ class MobilePhone(var phoneName: String, var brandName: String, var phoneColor: 
     }
 
     fun displayColor(){
-        println("The phone is available in $phoneColor")
+        println("The phone is available in $phoneColor.")
     }
 
     fun displayPrice(){
-        println("The phone price is $phonePrice")
+        println("It is currently worth $phonePrice pesos.")
     }
 
     fun displayStock(){
-        println("There is currently $phoneStock stocks available")
+        println("There is currently $phoneStock stocks available in our store.")
     }
 
 
