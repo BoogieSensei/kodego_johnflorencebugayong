@@ -1,6 +1,5 @@
 fun main(){
     val name : String = "Jack"
-    name = "John"
     var age : Int = 12
 
 }
