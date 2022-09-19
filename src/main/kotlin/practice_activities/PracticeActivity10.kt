@@ -3,12 +3,11 @@ package practice_activities
 fun main(){
 
     var phone = SmartPhone(20.0, 50)
-    phone.buyLoad(50.0)
-    println("Your current load is ${phone.load}")
+//    phone.buyLoad(50.0)
+//    println("Your current load is ${phone.load}")
 
-
-
-
+//    phone.chargeBattery(0)
+//    println("The current battery percentage is ${phone.batteryPercentage}%")
 }
 
 
@@ -20,13 +19,13 @@ class SmartPhone(var load: Double, var batteryPercentage:Int) {
     }
 
     //set parameter for functions
-    /* buyLoad(amount) // does not accept 0 or negative value
-        chargeBattery(percent) // does not accept 0 or negative values, should not exceed 100%
+    /*  chargeBattery(percent) // does not accept 0 or negative values, should not exceed 100%
         sendText(message) // display message sent, load will decrement
         checkBalance() // display current load, if zero, display "Check operator services"
         call(minutes) // 8 load per minute, will not push through if no sufficient load
      */
 
+    //Buying load function
     fun buyLoad(amount: Double): Double {
         if (amount > 0) {
 
@@ -57,4 +56,23 @@ class SmartPhone(var load: Double, var batteryPercentage:Int) {
         }
         return load
     }
+
+
+    //charge battery
+    fun chargeBattery(chargePercentage: Int):Int{
+        if(chargePercentage > 0){
+        batteryPercentage = batteryPercentage + chargePercentage
+
+            while(batteryPercentage > 100) {
+            batteryPercentage = batteryPercentage - 5
+            println(batteryPercentage)
+            }
+
+        }else{
+            println("You have entered and invalid amount. Please try again.")
+        }
+    return batteryPercentage
+    }
+
+
 }
