@@ -2,19 +2,16 @@ package practice_activities
 
 fun main(){
 
-    var phone = SmartPhone(60.0, 50)
+    var phone = SmartPhone(20.0, 50)
 //    phone.buyLoad(50.0)
-//    println("Your current load is ${phone.load}")
 
-//    phone.chargeBattery(0)
-//    println("The current battery percentage is ${phone.batteryPercentage}%")
+//    phone.chargeBattery(25)
 
 //    phone.sendText("Hello World!")
 
-
 //    phone.checkBalance()
 
-    phone.call(8)
+//    phone.call(8)
 
 }
 
@@ -55,6 +52,7 @@ class SmartPhone(var load: Double, var batteryPercentage:Int) {
         }else{
             println("You have entered and invalid amount. Please try again.")
         }
+        println("Your current load is $load")
         return load
     }
 
@@ -62,16 +60,21 @@ class SmartPhone(var load: Double, var batteryPercentage:Int) {
     //charge battery
     fun chargeBattery(chargePercentage: Int):Int{
         if(chargePercentage > 0){
-        batteryPercentage = batteryPercentage + chargePercentage
 
-            while(batteryPercentage > 100) {
-            batteryPercentage = batteryPercentage - 1
-            println(batteryPercentage)
-            }
+            println("Charging....")
+            var ctr1 : Int = 0
+            while((batteryPercentage < 100) && (ctr1 < chargePercentage)) {
+
+                batteryPercentage = batteryPercentage + 1
+                println(batteryPercentage)
+
+                ctr1++
+                }
 
         }else{
             println("You have entered and invalid amount. Please try again.")
         }
+        println("The current battery percentage is $batteryPercentage%")
     return batteryPercentage
     }
 
