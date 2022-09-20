@@ -1,5 +1,5 @@
 fun main (){
-//    try {
+    try {
 
         println("Enter number 1:")
         var num1: Int = readln().toInt()
