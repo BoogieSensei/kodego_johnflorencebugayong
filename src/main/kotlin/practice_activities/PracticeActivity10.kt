@@ -3,15 +3,14 @@ package practice_activities
 fun main(){
 
     var phone = SmartPhone(20.0, 50)
-//    phone.buyLoad(50.0)
-
-//    phone.chargeBattery(25)
+    phone.buyLoad(50.0)
+//    phone.chargeBattery(60)
 
 //    phone.sendText("Hello World!")
 
 //    phone.checkBalance()
 
-//    phone.call(8)
+    phone.call(8)
 
 }
 
