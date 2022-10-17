@@ -6,20 +6,20 @@ fun main (){
     map2.remove(2)
 
     println(map2)
-
-    println(map)
-    //getting value from map
-    println(map[1])
-    println(map[3])
-    println(map.get(2))
-
-    //map traversing keys
-    for (key in map.keys){
-        print(key)
-    }
-    for (value in map.values){
-        print(value)
-    }
+//
+//    println(map)
+//    //getting value from map
+//    println(map[1])
+//    println(map[3])
+//    println(map.get(2))
+//
+//    //map traversing keys
+//    for (key in map.keys){
+//        print(key)
+//    }
+//    for (value in map.values){
+//        print(value)
+//    }
 
 
 
