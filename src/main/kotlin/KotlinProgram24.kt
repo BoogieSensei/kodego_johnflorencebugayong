@@ -8,9 +8,8 @@ fun main (){
 //        println("Enter number $i")
 //        var input : Int = readln().toInt()
 //        numbers[i] = input
-    }
 
-//    println(total2(2,4,6,8,9,10,7))
+    println(total2(2,4,6,7,1,6))
 
 
 }
